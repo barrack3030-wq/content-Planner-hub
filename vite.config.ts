@@ -5,6 +5,8 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    // GitHub Pages serves this repository under /content-Planner-hub/
+    base: '/content-Planner-hub/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
